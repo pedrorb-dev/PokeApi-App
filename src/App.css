@@ -72,6 +72,7 @@
   cursor: pointer;
   padding: 50px;
   transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .main-item:hover {
@@ -99,10 +100,40 @@
   padding: 10px;
 }
 
-
-
-.height-weight {
+.main-detail {
+  border-radius: 10px;
+  background-color: rgb(46, 46, 46);
   color: white;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 50px;
+}
+
+.id-item,
+.title-item {
+  text-align: center;
+}
+
+.container-height-weight {
+  padding: 20px;
+  border-top: 1px dashed gray;
+  border-bottom: 1px dashed gray;
+  margin-top: 10px;
+  /* Define the outline */
+}
+
+.height-detail,
+.weight-detail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.dato-pokemon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

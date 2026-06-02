@@ -25,7 +25,7 @@ const Hero = () => {
             {
                 selected && (
                     <div className='detail-pokemon'>
-                        <PokeItem key={selected.name} url={selected.url} name={selected.name} />
+                        <PokeDetail url={selected.url} />
                     </div>
                 )
             }
